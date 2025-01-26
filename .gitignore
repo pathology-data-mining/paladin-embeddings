@@ -1,0 +1,12 @@
+wandb/
+*out
+*owl
+*pkl
+*csv
+*tsv
+*log
+*json
+*png
+*pt
+*txt
+*err
