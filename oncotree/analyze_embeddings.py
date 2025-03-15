@@ -5,7 +5,7 @@ import pickle
 import scipy.spatial.distance as ssd
 import scipy.cluster.hierarchy
 import numpy as np
-from d3heatmap import d3heatmap
+# from d3heatmap import d3heatmap
 
 
 # Load the distance dfs
@@ -16,9 +16,9 @@ row_order = euclidean_distances.index.tolist()
 
 small_matrix = euclidean_distances.loc[row_order[:10], row_order[:10]]
 
-heatmap = d3heatmap.heatmap(small_matrix)
-plt.show()
-exit()
+# heatmap = d3heatmap.heatmap(small_matrix)
+# plt.show()
+# exit()
 
 # load the actual embeddings
 with open('oncotree/euclidean_embeddings.pkl', 'rb') as f:
