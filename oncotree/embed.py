@@ -28,7 +28,7 @@ with open('oncotree/relations.txt', 'w') as f:
 relations = PoincareRelations('oncotree/relations.txt')
 
 # Train the Poincare model
-model = PoincareModel(train_data=relations, size=32, negative=25)
+model = PoincareModel(train_data=relations, size=32, negative=2)
 model.train(epochs=50)
 
 print("Training complete")

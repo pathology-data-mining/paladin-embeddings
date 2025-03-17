@@ -10,3 +10,5 @@ wandb/
 *pt
 *txt
 *err
+.DS_Store
+oncotree/poincare_embeddings
